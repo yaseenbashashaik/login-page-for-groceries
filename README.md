@@ -14,14 +14,14 @@
             <img src="C:\Users\SHAIK YASEEN BASHA\Pictures\Screenshots\avatar.jpeg" class="avatar">
             <h2>Login Here</h2>
             <form>
-                <p>Username</p>
-                <input type="text" name="" placeholder="Enter username">
+                <p>first name or username</p>
+                <input type="text" name="" placeholder="Enter firstname or username">
                 <p>Password</p>
                 <input type="password" name="" placeholder="Enter password">
                 <a href="file:///C:/Users/SHAIK%20YASEEN%20BASHA/Documents/p2.html"> <h3>Login</h3>
                 </a>
                 <a href="#">Lost your password</a><br>
-                <a herf="#">Dont have account?</a>
+                <a herf="#">Create new account</a>
             </form>
            
         </div>
@@ -32,10 +32,10 @@
     #code for css
     h1{font-style: initial;
     text-align: center;
-    background-color:aqua;
+    background-color:black;
     background-position: center;
     border:solid;
-    border-radius: 100px;
+    border-radius: 70px;
     width: 10cm;
     margin-left: 15cm;
     
@@ -47,11 +47,11 @@
     background-size: cover;
   }
   .loginbox{
-    width: 320px;
+    width: 200px;
     height: 500px;
     background:black;
     color: white;
-    top: 50%;
+    top: 30%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -60,7 +60,7 @@
     
   }
   .avatar{
-    width: 100px;
+    width: 800px;
     height: 100px;
     border-radius: 50%;
     position: relative;
